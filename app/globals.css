@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌿 Google Font - Poppins (already handled in layout.tsx with next/font) */
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* 🌱 Eco-style Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f0fdf4;
+}
+::-webkit-scrollbar-thumb {
+  background: #34d399;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
+
+/* ✨ Text wrapping utility */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* 🎨 Light Theme Variables */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --primary: 142 71% 45%; /* eco green */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 84 76% 96%; /* light lime */
+    --secondary-foreground: 142 71% 25%;
+    --muted: 142 50% 95%;
+    --muted-foreground: 142 60% 30%;
+    --accent: 142 30% 92%;
+    --accent-foreground: 142 71% 35%;
+    --card: 0 0% 100%;
+    --card-foreground: 142 71% 10%;
+    --border: 142 30% 90%;
+    --input: 0 0% 89.8%;
+    --ring: 142 71% 40%;
+    --radius: 0.5rem;
+    --chart-1: 145 65% 48%;
+    --chart-2: 100 70% 45%;
+    --chart-3: 45 80% 60%;
+    --chart-4: 195 50% 45%;
+    --chart-5: 300 50% 60%;
+  }
+
+  .dark {
+    --background: 142 21% 10%;
+    --foreground: 0 0% 98%;
+    --primary: 142 71% 60%;
+    --primary-foreground: 0 0% 10%;
+    --secondary: 142 20% 20%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 142 10% 25%;
+    --muted-foreground: 142 10% 65%;
+    --accent: 142 10% 30%;
+    --accent-foreground: 142 20% 80%;
+    --border: 142 10% 30%;
+    --input: 142 10% 30%;
+    --ring: 142 70% 60%;
+    --chart-1: 145 65% 60%;
+    --chart-2: 100 70% 55%;
+    --chart-3: 45 80% 65%;
+    --chart-4: 195 50% 50%;
+    --chart-5: 300 50% 65%;
+  }
+}
+
+/* 🧱 Apply variables */
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* 💨 Extra Transitions */
+@layer utilities {
+  .transition-base {
+    @apply transition duration-300 ease-in-out;
+  }
+  .fade-in {
+    animation: fadeIn 0.4s ease-in-out both;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
