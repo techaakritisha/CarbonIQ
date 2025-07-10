@@ -1,25 +1,43 @@
-# EcoMeter web application
+# CarbonIQ
 
-## Overview
+Welcome to **CarbonIQ**, a smart and intuitive carbon footprint tracking app designed to promote eco-conscious habits and climate awareness. CarbonIQ enables individuals to measure, track, and improve their daily environmental impact through personalized suggestions, visual insights, and gamified rewards. Whether you're a student, professional, or sustainability enthusiast, CarbonIQ empowers you to take meaningful steps toward a greener lifestyle.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Features
 
-## Deployment
+- **Daily Eco Check-In**
+  - Record your daily transportation choices, consumption behaviors, and lifestyle decisions to receive a real-time eco score.
 
-Your project is live at:
+- **EcoScore System**
+  - Instantly evaluate your environmental impact on a scale from 0 to 10, based on your daily actions and decisions.
 
-**[https://vercel.com/aakritis-projects-26960296/v0-eco-meter-web-application](https://vercel.com/aakritis-projects-26960296/v0-eco-meter-web-application)**
+- **Personalized Suggestions**
+  - Receive tailored tips based on your habits—like reducing plastic usage or walking instead of driving—to lower your footprint.
 
-## Build your app
+- **Gamified Badges**
+  - Unlock eco-badges like “Green Starter,” “Transport Hero,” and “Plastic Avoider” to stay motivated and consistent.
 
-Continue building your app on:
+- **Progress Visualization**
+  - View your streak, track monthly progress, and analyze trends with charts powered by Recharts.
 
-**[https://v0.dev/chat/projects/iETqOQ4Kbuq](https://v0.dev/chat/projects/iETqOQ4Kbuq)**
+- **Authentication**
+  - Secure login and signup with protected local storage, ensuring your activity data remains private and consistent across sessions.
 
-## How It Works
+- **Pages**
+  - **Home**: Track your daily eco-actions and explore personalized sustainability tips.  
+  - **Dashboard**: Access your performance, score, streaks, and badges.  
+  - **Tips**: Explore curated eco-friendly habits and personalized suggestions.  
+  - **About**: Learn more about CarbonIQ’s mission.  
+  - **Contact**: Reach out for support or collaborations.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Website
+
+- [CarbonIQ](https://carbon-iq-5.vercel.app/)
+
+## Installation
+
+To install and run CarbonIQ locally, follow these steps:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/techaakritisha/CarbonIQ.git
+   cd CarbonIQ
