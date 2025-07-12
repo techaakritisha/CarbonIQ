@@ -41,3 +41,7 @@ To install and run CarbonIQ locally, follow these steps:
    ```bash
    git clone https://github.com/techaakritisha/CarbonIQ.git
    cd CarbonIQ
+   
+## Acknowledgements
+
+- Thank you for taking a look at DhanRakshak! Your interest and support mean the world to me :).
