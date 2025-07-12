@@ -22,12 +22,25 @@ Welcome to **CarbonIQ**, a smart and intuitive carbon footprint tracking app des
 - **Authentication**
   - Secure login and signup with protected local storage, ensuring your activity data remains private and consistent across sessions.
 
-- **Pages**
+## Pages
   - **Home**: Track your daily eco-actions and explore personalized sustainability tips.  
   - **Dashboard**: Access your performance, score, streaks, and badges.  
   - **Tips**: Explore curated eco-friendly habits and personalized suggestions.  
   - **About**: Learn more about CarbonIQ’s mission.  
   - **Contact**: Reach out for support or collaborations.
+
+## Use Cases
+
+- **Eco-Conscious Individuals**
+  - Track and improve personal habits to reduce carbon footprint through daily check-ins and smart suggestions.
+- **Corporate Green Initiatives**
+  - Support employee awareness programs with CarbonIQ to promote environmentally responsible workplace behavior.
+- **Progress-Driven Users**
+  - Individuals who are motivated by streaks and badges can visually track their eco-journey.
+- **Environmentally Curious Beginners**
+  - People starting their eco-conscious journey can get easy-to-understand suggestions tailored to their actions—like switching to public transport or reducing plastic.
+- **Educational Institutions**
+  - Use CarbonIQ as an interactive tool to teach environmental studies and sustainable living practices.
 
 ## Website
 
